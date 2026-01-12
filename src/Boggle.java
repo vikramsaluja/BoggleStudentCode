@@ -20,7 +20,7 @@ public class Boggle {
         // Variable to keep track if a certain cell has been visited or not
         boolean[][] visited = new boolean[rows][cols];
 
-        // Start DFS from every cell
+        // Start DFS from every cells
         for(int i = 0; i < rows; i++){
             for(int j = 0; j < cols; j++){
                 DFS(board, i, j, tst, "", goodWords, visited);

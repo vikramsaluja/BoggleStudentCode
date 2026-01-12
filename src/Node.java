@@ -7,6 +7,6 @@ public class Node {
     Node left;
     // Goes to the next letter in the current word
     Node middle;
-    // Goes to node with larger letters
+    // Goes to the node with larger letters
     Node right;
 }

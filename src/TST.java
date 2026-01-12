@@ -1,7 +1,6 @@
 public class TST {
     private Node rootNode;
 
-
     // Insert word into TST
     public void insertWordHelper(String word){
         // If the input word is null or empty then stop
